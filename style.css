@@ -1,0 +1,24 @@
+body {
+    background-color: burlywood;
+    font-family: fantasy;
+}
+
+body header {
+    text-align: center;
+    font-size: 200%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+}
+
+.box {
+    display: inline-block;
+    margin: 2px;
+    background-color: bisque;
+    border: black solid 1px;
+    padding: 10px 50px 100px 50px;
+}
